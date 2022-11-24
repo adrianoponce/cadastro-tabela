@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CADASTRO</h1>
+    
+    Nome:<input type="text" id="nome">
+    Sobrenome:<input type="text" id="sobrenome"><br>
+    E-mail:<input type="email" id="email"><br>
+    Senha:<input type="password" id="senha">
+    Confirmação senha:<input type="password" id="confirmacao"><br>
+    Data de nascimento:<input type="date" id="nascimento"><br>
+    Endereço:<input type="text" id="endereco">
+    Número:<input type="number" id="numero"><br>
+    Cidade:<input type="text" id="cidade">
+    Estado:<input type="text" id="estado"><br>
+    <button type="button" onclick="Salvar()">SALVAR</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome:</th>
+                <th>Sobrenome:</th>
+                <th>E-mail:</th>
+                <th>Senha:</th>
+                <th>Confirmação:</th>
+                <th>Nascimenrto:</th>
+                <th>Endereço:</th>
+                <th>Número:</th>
+                <th>Cidade:</th>
+                <th>EstadoSobrenome:</th>
+            </tr>
+        </thead>
+        <tbody id="clientes">
+
+        </tbody>
+    </table>
+    
+    <script src="app.js"></script>
+</body>
